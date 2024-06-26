@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.frame_above {
+  display: flex;
+  padding: 9px; /* Убираем фиксированные отступы справа и слева */
+  height: 38px;
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Центрируем содержимое по вертикали */
+  background: #000;
+  width: 100vw; /* Ширина 100% окна просмотра */
+  box-sizing: border-box; /* Включаем padding в общую ширину элемента */
+}
+
+.text_above {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center; /* Центрируем текст */
+}
+
+.above_btn {
+  color: white;
+  font-size: 14px;
+  font-family: Satoshi;
+  font-weight: 500;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
